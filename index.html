@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+    <h1 class="w100 text-center"><a href="index.html">YouTube API Search</a></h1>
+    </header>
+    
+    
+    <div class = "row">
+    <div class = "col-md 6 col-md offset-3">
+    <form action="#">
+      <p><input type="text" id="search" placeholder="Type something..." autocomplete="off" class="form-control" /></p>
+      <p><input type="submit" value="Search" class="form-control btn btn-primary w100"></p>
+      
+      
+    </form>  
+      <div id = "results"></div>
+    </div>  
+      
+    </div>
+    
+    <script type="text/javascript" charset="utf-8">
+      //window.alert("Type Something");
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=init"></script>
